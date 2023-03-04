@@ -12,7 +12,7 @@ function Contact() {
   const { mutate, data, isLoading } = api.mail.addContact.useMutation();
   return (
     <div>
-      <section className="contact-page gap">
+      <section className="contact-page gap" id="contact">
         <div className="container">
           <div className="heading">
             <h6>Start Your Project With Us.</h6>

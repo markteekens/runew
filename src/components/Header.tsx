@@ -12,9 +12,9 @@ function Header() {
                 {/* met lighthouse checken welke images traag zijn */}
                 <Image
                   alt="logo"
-                  src="/assets/img/logo.png"
-                  height={26}
-                  width={80}
+                  src="/Ruby_logo.png"
+                  height={50}
+                  width={120}
                 />
               </a>
             </div>
