@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 function MainPlansPricing() {
   return (
     <section
@@ -10,13 +10,23 @@ function MainPlansPricing() {
         <div className="heading">
           <h6>Pakketten &amp; Prijzen</h6>
           <h2>Starten met een goede boekhouding</h2>
-          <img alt="line" src="assets/img/headingline.png" />
+          <Image
+            alt="line"
+            src="/assets/img/headingline.png"
+            height={10}
+            width={40}
+          />
         </div>
         <div className="row">
           <div className="col-xl-4 col-lg-6 Pricing-style">
             <div className="heading">
               <h2>Eén vaste prijs per jaar, maandelijks gefactureerd.</h2>
-              <img alt="line" src="assets/img/headingline.png" />
+              <Image
+                alt="line"
+                src="/assets/img/headingline.png"
+                height={10}
+                width={40}
+              />
             </div>
             <div className="marketing two">
               <h4 style={{ paddingBottom: "0px" }}>
@@ -121,13 +131,28 @@ function MainPlansPricing() {
       </div>
       <div className="tp-hero__shapes">
         <div className="style-shapes-5">
-          <img alt="dots1" src="assets/img/shap-2.png" />
+          <Image
+            alt="dots1"
+            src="/assets/Image/shap-2.png"
+            height={20}
+            width={20}
+          />
         </div>
         <div className="style-shapes-4">
-          <img alt="dots1" src="assets/img/dots1.png" />
+          <Image
+            alt="dots1"
+            src="/assets/img/dots1.png"
+            height={20}
+            width={20}
+          />
         </div>
         <div className="style-shapes-7">
-          <img alt="dots1" src="assets/img/shap-5.png" />
+          <Image
+            alt="dots1"
+            src="/assets/img/shap-5.png"
+            height={20}
+            width={80}
+          />
         </div>
       </div>
     </section>

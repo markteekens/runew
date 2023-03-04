@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 function IntroGap() {
   return (
     <section className="intro gap">
@@ -7,7 +7,12 @@ function IntroGap() {
         <div className="row">
           <div className="col-lg-6">
             <div className="graph">
-              <img alt="img" src="assets/img/graph-1.png" />
+              <Image
+                alt="img"
+                src="/assets/img/graph-1.png"
+                height={450}
+                width={600}
+              />
             </div>
           </div>
           <div className="col-lg-6 p-sm-0">
@@ -16,7 +21,12 @@ function IntroGap() {
                 {" "}
                 Een team van moderne boekhouders die jou als ZZPer begrijpen.
               </h2>
-              <img alt="line" src="assets/img/headingline.png" />
+              <Image
+                alt="line"
+                src="/assets/img/headingline.png"
+                height={10}
+                width={40}
+              />
             </div>
             <div className="marketing">
               <h4>

@@ -1,11 +1,14 @@
 import React from "react";
-
+import Image from "next/image";
 function MainHero() {
   return (
-    <section
-      className="hero-section-one"
-      style={{ backgroundImage: "url(assets/img/hero-img-ruby3.jpeg)" }}
-    >
+    <section className="hero-section-one">
+      <Image
+        src="/assets/img/hero-img-ruby3.jpeg"
+        alt=""
+        fill
+        style={{ position: "absolute" }}
+      />
       <div className="container">
         <div className="heading-boder">
           <h2>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 function MainTestomonials() {
   return (
     <section className="gap no-top">
@@ -8,7 +8,12 @@ function MainTestomonials() {
           <div className="swiper-wrapper">
             <div className="swiper-slide">
               <div className="testimonials">
-                <img alt="img" src="assets/img/testimonials-1.jpg" />
+                <Image
+                  alt="img"
+                  src="/assets/img/testimonials-1.jpg"
+                  height={100}
+                  width={100}
+                />
                 <i className="fa-solid fa-quote-right"></i>
                 <div>
                   <h6>A multi-disciplinary team of creators ...</h6>
@@ -23,7 +28,12 @@ function MainTestomonials() {
             </div>
             <div className="swiper-slide">
               <div className="testimonials">
-                <img alt="img" src="assets/img/testimonials-2.jpg" />
+                <Image
+                  alt="img"
+                  src="/assets/img/testimonials-2.jpg"
+                  height={100}
+                  width={100}
+                />
                 <i className="fa-solid fa-quote-right"></i>
                 <div>
                   <h6>A multi-disciplinary team of creators ...</h6>

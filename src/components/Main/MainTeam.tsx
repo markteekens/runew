@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 function MainTeam() {
   return (
     <section className="gap team-section">
@@ -13,7 +13,13 @@ function MainTeam() {
         <div className="row">
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="team-member">
-              <img className="w-100" alt="img" src="assets/img/team-1.jpg" />
+              <Image
+                className="w-100"
+                alt="img"
+                src="/assets/img/team-1.jpg"
+                height={370}
+                width={500}
+              />
               <div className="team-member-text">
                 <h6>
                   <a href="team.html">Klay Carson</a>
@@ -46,7 +52,13 @@ function MainTeam() {
           </div>
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="team-member">
-              <img className="w-100" alt="img" src="assets/img/team-2.jpg" />
+              <Image
+                className="w-100"
+                alt="img"
+                src="/assets/img/team-2.jpg"
+                height={370}
+                width={500}
+              />
               <div className="team-member-text">
                 <h6>
                   <a href="team.html">Naomi Norman</a>
@@ -79,7 +91,13 @@ function MainTeam() {
           </div>
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="team-member">
-              <img className="w-100" alt="img" src="assets/img/team-3.jpg" />
+              <Image
+                className="w-100"
+                alt="img"
+                src="/assets/img/team-3.jpg"
+                height={370}
+                width={500}
+              />
               <div className="team-member-text">
                 <h6>
                   <a href="team.html">Bert Graham</a>
@@ -112,7 +130,13 @@ function MainTeam() {
           </div>
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="team-member mb-0">
-              <img className="w-100" alt="img" src="assets/img/team-4.jpg" />
+              <Image
+                className="w-100"
+                alt="img"
+                src="/assets/img/team-4.jpg"
+                height={370}
+                width={500}
+              />
               <div className="team-member-text">
                 <h6>
                   <a href="team.html">Bert Graham</a>
@@ -152,16 +176,36 @@ function MainTeam() {
       </div>
       <div className="tp-hero__shapes">
         <div className="style-shapes-4">
-          <img alt="dots1" src="assets/img/dots1.png" />
+          <Image
+            alt="dots1"
+            src="/assets/img/dots1.png"
+            height={100}
+            width={100}
+          />
         </div>
         <div className="style-shapes-5">
-          <img alt="dots1" src="assets/img/shap-2.png" />
+          <Image
+            alt="dots1"
+            src="/assets/img/shap-2.png"
+            height={100}
+            width={100}
+          />
         </div>
         <div className="style-shapes-6">
-          <img alt="dots1" src="assets/img/shap-2.png" />
+          <Image
+            alt="dots1"
+            src="/assets/img/shap-2.png"
+            height={100}
+            width={100}
+          />
         </div>
         <div className="style-shapes-7">
-          <img alt="dots1" src="assets/img/shap-5.png" />
+          <Image
+            alt="dots1"
+            src="/assets/img/shap-5.png"
+            height={20}
+            width={100}
+          />
         </div>
       </div>
     </section>

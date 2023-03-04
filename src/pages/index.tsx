@@ -15,6 +15,7 @@ function Home() {
           name="description"
           content="De moderne boekhouder voor Freelancers en ZZP'ers"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Header />
       <Main />

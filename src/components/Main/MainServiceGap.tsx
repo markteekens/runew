@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 function MainServiceGap() {
   return (
     <section className="sercives gap no-top">
@@ -13,7 +13,13 @@ function MainServiceGap() {
         <div className="row">
           <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="sercive-style">
-              <img alt="img" className="w-100" src="assets/img/sercive-1.jpg" />
+              <Image
+                alt="img"
+                className="w-100"
+                src="/assets/img/sercive-1.jpg"
+                width={800}
+                height={200}
+              />
               <div className="sercive-style-text">
                 <h6>Onbeperkt & Persoonlijk advies</h6>
                 <div className="boder"></div>
@@ -26,7 +32,13 @@ function MainServiceGap() {
           </div>
           <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="sercive-style">
-              <img alt="img" className="w-100" src="assets/img/sercive-2.jpg" />
+              <Image
+                alt="img"
+                className="w-100"
+                src="/assets/img/sercive-2.jpg"
+                width={800}
+                height={200}
+              />
               <div className="sercive-style-text">
                 <h6>Open wanneer het jou schikt</h6>
                 <div className="boder"></div>
@@ -39,7 +51,13 @@ function MainServiceGap() {
           </div>
           <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="sercive-style">
-              <img alt="img" className="w-100" src="assets/img/sercive-3.jpg" />
+              <Image
+                alt="img"
+                className="w-100"
+                src="/assets/img/sercive-3.jpg"
+                width={800}
+                height={200}
+              />
               <div className="sercive-style-text">
                 <h6>Boekhoud tool</h6>
                 <div className="boder"></div>
@@ -52,7 +70,13 @@ function MainServiceGap() {
           </div>
           <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="sercive-style mb-0">
-              <img alt="img" className="w-100" src="assets/img/sercive-4.jpg" />
+              <Image
+                alt="img"
+                className="w-100"
+                src="/assets/img/sercive-4.jpg"
+                width={800}
+                height={200}
+              />
               <div className="sercive-style-text">
                 <h6>Prijs vriendelijk</h6>
                 <div className="boder"></div>
@@ -67,13 +91,28 @@ function MainServiceGap() {
       </div>
       <div className="tp-hero__shapes">
         <div className="style-shapes-5">
-          <img alt="dots1" src="assets/img/dots1.png" />
+          <Image
+            alt="dots1"
+            src="/assets/img/dots1.png"
+            width={100}
+            height={100}
+          />
         </div>
         <div className="style-shapes-6">
-          <img alt="dots1" src="assets/img/shap-2.png" />
+          <Image
+            alt="dots1"
+            src="/assets/img/shap-2.png"
+            width={100}
+            height={100}
+          />
         </div>
         <div className="style-shapes-7">
-          <img alt="dots1" src="assets/img/shap-5.png" />
+          <Image
+            alt="dots1"
+            src="/assets/img/shap-5.png"
+            width={80}
+            height={20}
+          />
         </div>
       </div>
     </section>
