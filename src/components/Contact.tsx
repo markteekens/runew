@@ -1,9 +1,7 @@
-import { useRouter } from "next/router";
 import React, { useState } from "react";
 import { api } from "../utils/api";
 
 function Contact() {
-  const router = useRouter();
   const [input, setInput] = useState({
     name: "",
     email: "",
@@ -14,14 +12,6 @@ function Contact() {
   const { mutate, data, isLoading } = api.mail.addContact.useMutation();
   return (
     <div>
-      <section className="splash-area-section">
-        <div className="container">
-          <div className="splash-area">
-            <h2>Let Us Know What You&apos;re Looking For</h2>
-            <a href="#">Get in Touch</a>
-          </div>
-        </div>
-      </section>
       <section className="contact-page gap">
         <div className="container">
           <div className="heading">

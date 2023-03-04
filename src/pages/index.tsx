@@ -1,12 +1,17 @@
-import { useRouter } from "next/router";
-import React, { useState } from "react";
+import React from "react";
 import Contact from "~/components/Contact";
-import { api } from "../../src/utils/api";
+import Footer from "~/components/Footer";
+import Header from "~/components/Header";
+import Main from "~/components/Main";
 
 function Home() {
   return (
+    //Component structuur
     <div>
+      <Header />
+      <Main />
       <Contact />
+      <Footer />
     </div>
   );
 }
