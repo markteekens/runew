@@ -3,7 +3,7 @@ import React from "react";
 import Contact from "~/components/Contact";
 import Footer from "~/components/Footer";
 import Header from "~/components/Header";
-import Main from "~/components/Main";
+import Main from "~/components/Main/Main";
 
 function Home() {
   return (
