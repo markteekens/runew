@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 function Header() {
   return (
     <header style={{ backgroundColor: "black" }}>
@@ -8,7 +8,13 @@ function Header() {
           <div className="d-flex align-items-center">
             <div className="logo">
               <a href="index-2.html">
-                <img alt="logo" src="assets/img/logo.png" />
+                {/* NextJS heeft een eigen Image component om sneller Images te laden. Bovenin geimporteerd. Heeft een height en widt property nodig Voorbeeld: */}
+                <Image
+                  alt="logo"
+                  src="/assets/img/logo.png"
+                  height={26}
+                  width={80}
+                />
               </a>
             </div>
             <ul className="menu">
