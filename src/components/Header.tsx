@@ -9,6 +9,7 @@ function Header() {
             <div className="logo">
               <a href="index-2.html">
                 {/* NextJS heeft een eigen Image component om sneller Images te laden. Bovenin geimporteerd. Heeft een height en widt property nodig Voorbeeld: */}
+                {/* met lighthouse checken welke images traag zijn */}
                 <Image
                   alt="logo"
                   src="/assets/img/logo.png"
